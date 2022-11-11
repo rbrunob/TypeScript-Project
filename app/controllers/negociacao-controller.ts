@@ -14,7 +14,7 @@ import { Negociacao } from "../models/negociacao.js";
   adiciona(): void {
     const negociacao = this.criaNegociacao();
     console.log(negociacao);
-  };
+  }
 
   criaNegociacao(): Negociacao {
     const exp = /-/g;
