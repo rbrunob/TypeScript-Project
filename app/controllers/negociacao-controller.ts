@@ -32,4 +32,4 @@ import { Negociacao } from "../models/negociacao.js";
     this.inputData.focus()
   }
 
- }
+}
