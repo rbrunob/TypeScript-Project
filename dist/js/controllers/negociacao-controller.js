@@ -9,7 +9,6 @@ export class NegociacaoController {
         const negociacao = this.criaNegociacao();
         console.log(negociacao);
     }
-    ;
     criaNegociacao() {
         const exp = /-/g;
         const date = new Date(this.inputData.value.replace(exp, ','));
