@@ -25,4 +25,11 @@ import { Negociacao } from "../models/negociacao.js";
     return new Negociacao(date, quantidade, valor);
   }
 
+  limparFormulario(): void {
+    this.inputData.value = '';
+    this.inputQuantidade.value = '';
+    this.inputValor.value = '';
+    this.inputData.focus()
+  }
+
  }
