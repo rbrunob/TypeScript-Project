@@ -14,6 +14,7 @@ import { Negociacao } from "../models/negociacao.js";
   adiciona(): void {
     const negociacao = this.criaNegociacao();
     console.log(negociacao);
+    this.limparFormulario();
   }
 
   criaNegociacao(): Negociacao {
